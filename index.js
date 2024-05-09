@@ -25,6 +25,8 @@ function fetchWeather(location) {
             locationElement.textContent = data.name;
             descriptionElement.textContent = data.weather[0].description;
             temperatureElement.textContent = data.main.temp + " °C";
+            const iconUrl = `https://openweathermap.org/img/wn/${data.weather[0].icon}.png`;
+            document.getElementById('weatherIcon').src = iconUrl;
         })
         .catch(error => console.error("Error fetching data: ", error));
 }
