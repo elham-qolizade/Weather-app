@@ -6,6 +6,9 @@
     height: 350px;
     align-items: center;
     flex-direction: column;
+    background-image: url(img/Jowhareh_galleries_4_poster_71fc92b0-27f6-4a8e-9477-77e528c577a2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 input {
